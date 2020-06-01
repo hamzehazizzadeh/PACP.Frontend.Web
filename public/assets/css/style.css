@@ -1,0 +1,32 @@
+/* Default Style */
+
+/* Vazir Font */
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/Vazir-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Vazir-Bold.eot') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/Vazir-Bold.woff2'),
+    /* Super Modern Browsers */ url('../fonts/Vazir-Bold.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('../fonts/Vazir-Bold.ttf')
+      format('truetype'); /* Safari, Android, iOS */
+}
+
+/* Lale Zar Font */
+@font-face {
+  font-family: 'Lalezar';
+  src: url('../fonts/Lalezar-Regular.ttf'); /* IE9 Compat Modes */
+}
+/* End */
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazir';
+  word-spacing: -1px;
+}
+a {
+  text-decoration: none !important;
+}
+/* End */
